@@ -1,0 +1,244 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*NAV MENU*@
+<div class="nav-div">
+    <nav>
+        <img src="~/images/LI_pic.jpg" class="profile-pic" alt="Broken" />
+        <ul class="nav-ul">
+            <li class="nav-item">
+                <a class="nav-a" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-a" href="#experience">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-a" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-a" href="#education">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-a" href="#skills">SKILLS</a>
+            </li>
+@*            <li class="nav-item">
+                <a class="nav-a" asp-page="/Chatter">Chatter</a>
+            </li>*@
+        </ul>
+
+        <div class="nav-socials">
+            <a class="icon-anchor" href="https://www.linkedin.com/in/simonbui/">
+                <ion-icon class="ion-icon-nav" name="logo-linkedin"></ion-icon>
+            </a>
+            <a class="icon-anchor" href="https://github.com/simontbui">
+                <ion-icon class="ion-icon-nav" name="logo-github"></ion-icon>
+            </a>
+            <a class="icon-anchor" href="mailto:simontb@uci.edu">
+                <ion-icon class="ion-icon-nav" name="mail"></ion-icon>
+            </a>
+        </div>
+    </nav>
+</div>
+
+
+@*INTRODUCTION SECTION*@
+<section class="intro" id="about">
+    <div class="intro-text">
+        <h1 class="firstName">SIMON </h1><h1 class="lastName">BUI</h1>
+        <h2>SOFTWARE ENGINEER</h2>
+        <div>
+            <a class="icon-anchor" href="https://www.linkedin.com/in/simonbui/">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a class="icon-anchor" href="https://github.com/simontbui">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a class="icon-anchor" href="mailto:simontb@uci.edu">
+                <ion-icon name="mail"></ion-icon>
+            </a>
+        </div>
+        <p>
+            Hello! I'm interested in developing and improving useful systems as well as tackling the intricacies that come along the way. 
+            Feel free to reach out if you're interested in career talks or food and cooking videos on YouTube!
+        </p>
+
+        <a class="resume" href="~/images/SimonBuiResume.pdf" target="_blank">View Resume</a>
+    </div>
+</section>
+
+
+@*EXPERIENCE SECTION*@
+<section class="experience" id="experience">
+    <div class="experience-text">
+        <div class="section-header">
+            <h2>EXPERIENCE</h2>
+        </div>
+
+        <div class="card">
+            <div class="job">
+                <div class="job-title">
+                    <h3>DATA ANALYST</h3>
+                    <h3 class="companies">TRANSACTION DATA SYSTEMS</h3>
+                </div>
+
+                <div class="job-description">
+                    <ul>
+                        <li>Verified flat file data to ensure data integrity and compatibility with database procedures</li>
+                        <li>Utilized SQL to identify data related issues that resulted in bugs on clients’ UI or services</li>
+                        <li>Recommended changes SQL stored procedures to enhance existing vaccination data pipelines</li>
+                        <li>QA tested database procedure changes by analyzing data flow, API calls, and JSON payloads</li>
+                        <li>Leveraged regular expressions to automate error handling of data transmission to state government agencies</li>
+                        <li>Modified XML configuration files to test and validate data transfer to and from 3rd party REST APIs</li>
+                        <li>Acted as a technical liaison between data engineers, software engineers, project managers, and non-technical staff</li>
+                        <li>Aggregated data from Oracle and SQL Server databases for third parties and interdepartmental reporting</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dates">
+                <span>October 2021 - Present</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="job">
+                <div class="job-title">
+                    <h3>SOFTWARE ENGINEER (PRACTICUM)</h3>
+                    <h3 class="companies">COMMNET WIRELESS LLC</h3>
+                </div>
+
+                <div class="job-description">
+                    <ul>
+                        <li>Created a front-end UI with Python and Flask that processes HTTP requests to pull and analyze cellular networking data</li>
+                        <li>Aggregated data based on user selections to render graphs and automate machine learning models that flag anomalous data as a signal for intervention</li>
+                        <li>Provided well-documented and unit tested code for the client to modify for future infrastructural changes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dates">
+                <span>May 2022 - August 2022</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@*PROJECTS SECTION*@
+<section class="projects" id="projects">
+    <div class="projects-text">
+        <div class="section-header">
+            <h2>PROJECTS</h2>
+        </div>
+
+        <div class="card">
+            <div class="project-item">
+                <h3>PORTFOLIO WEBSITE</h3>
+                <h3 class="tech-used">TECHNOLOGIES: ASP.NET Core (C#), Razor, HTML, CSS</h3>
+                <p class="project-description">
+                    Resumes can sometimes be dry. I wanted to create something that had more depth and had a better visual appeal. Want to visit? You're already here!
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="project-item">
+                <h3>MEETING SCHEDULE TRACKER (IN PROGRESS)</h3>
+                <h3 class="tech-used">TECHNOLOGIES: TypeScript, Node.js, Express, MongoDB (NoSQL), React, HTML, CSS</h3>
+                <p class="project-description">
+                    Ever felt frustrated trying to schedule a meeting that fits everyone's availabilities? This is an issue I've often run into. I love solutions such as the calendar interface on Microsoft Teams when it comes to displaying and scheduling meetings. The caveat is that it's tedious to schedule a meeting that lines up with the availabilities of 5 other people in 3 different timezones. I created an app that allows a user to create, schedule, and view others' meeting times. Now, if you want to schedule a meeting on Wednesday with Alice and John, you can check their schedule on the calendar as well.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="project-item">
+                <h3>
+                    DAMAGE CALCULATOR FOR AN ONLINE GAME (LOST ARK ONLINE) -&nbsp;
+                    <a 
+                       href="https://www.trixion-calculator.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       trixion-calculator.com
+                    </a>
+                </h3>
+                <h3 class="tech-used">TECHNOLOGIES: JavaScript, React, HTML, CSS</h3>
+                <p class="project-description">
+                    Online games can be expensive to play. I spent some time trying out a new game earlier in 2022 where many players were spending hundreds to thousands of dollars within the first month. I've met some that spent over 5 figures buying items that were often a poor choice. Many of my friends would frequently ask me to calculate which combinations of items would maximize the damage their character would do. Instead of doing this manually everytime, I created a website that automates the math for you!
+                </p>
+                <p class="project-description">
+                    Consider the scenario in the demo screenshot below. Let's say you have two options where option #1 costs $200 and option #2 costs $201. You might find it worthwhile to spend that extra $1 on option #2 if you found out that option #2 made your character 9% better.
+                </p>
+                <img src="~/images/trixioncalculator.jpg" class="project-img" alt="Broken" />
+            </div>
+        </div>
+    </div>
+</section>
+
+@*EDUCATION SECTION*@
+<section class="education" id="education">
+    <div class="education-text">
+        <div class="section-header">
+            <h2>EDUCATION</h2>
+        </div>
+
+        <div class="card">
+            <div class="school">
+                <h3>M.S. ANALYTICS</h3>
+                <h3 class="school-name">GEORGIA INSTITUTE OF TECHNOLOGY</h3>
+            </div>
+            <div class="dates">
+                <span>August 2020 - May 2023</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="school">
+                <h3>B.S. PHARMACEUTICAL SCIENCES</h3>
+                <h3 class="school-name">UNIVERSITY OF CALIFORNIA, IRVINE</h3>
+            </div>
+            <div class="dates">
+                <span>September 2012 - May 2017</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@*SKILLS SECTION*@
+<section class="skills" id="skills">
+    <div class="skills-text">
+        <div class="section-header">
+            <h2>SKILLS</h2>
+        </div>
+
+        <div class="card">
+            <div class="skill">
+                <h3>PROGRAMMING LANGUAGES</h3>
+                <h3 class="skill-names">C#, TypeScript, JavaScript, Python, SQL, HTML, CSS</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="skill">
+                <h3>FRAMEWORKS & LIBRARIES</h3>
+                <h3 class="skill-names">.NET, React, Node.js, Express, Flask, SQLite3, numpy, pandas</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="skill">
+                <h3>DATABASES</h3>
+                <h3 class="skill-names">Oracle, SQL Server, SQLite, MongoDB</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="skill">
+                <h3>TOOLS</h3>
+                <h3 class="skill-names">Postman, Git, Visual Studio Code, NPM, Chrome Developer Tools</h3>
+            </div>
+        </div>
+    </div>
+</section>
