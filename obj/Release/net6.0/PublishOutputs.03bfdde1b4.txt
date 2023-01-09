@@ -1,0 +1,8 @@
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\PortfolioDotNet.exe
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\global.json
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\PortfolioDotNet.dll
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\PortfolioDotNet.deps.json
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\PortfolioDotNet.runtimeconfig.json
+C:\Users\Simon\source\repos\portfolioDOTNET\obj\Release\net6.0\PubTmp\Out\PortfolioDotNet.pdb

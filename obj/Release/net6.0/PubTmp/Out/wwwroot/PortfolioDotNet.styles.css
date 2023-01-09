@@ -1,0 +1,199 @@
+/* _content/PortfolioDotNet/Pages/Chatter.cshtml.rz.scp.css */
+.chatter-div[PortfolioDotNet] {
+    margin-top: 50px;
+}
+
+.chatter-item[PortfolioDotNet] {
+    background-color: red;
+    margin: 25px auto;
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+/* _content/PortfolioDotNet/Pages/Index.cshtml.rz.scp.css */
+hr[PortfolioDotNet] {
+    background-color: lightgray;
+    height: 0.1px;
+    margin-left: 0;
+    padding: 0;
+}
+
+a[PortfolioDotNet] {
+    color: rgb(16, 34, 70);
+}
+
+.icon-anchor[PortfolioDotNet] {
+    text-decoration: none;
+}
+
+ion-icon[PortfolioDotNet] {
+    font-size: 24px;
+}
+
+section[PortfolioDotNet] {
+    border-bottom: solid lightgray;
+    border-bottom-width: thin;
+}
+
+.nav-a:link[PortfolioDotNet] {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-a:visited[PortfolioDotNet] {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-a:hover[PortfolioDotNet] {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-a:active[PortfolioDotNet] {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-div[PortfolioDotNet] {
+    background-color: #3b78bd;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 160px;
+    height: 100%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.nav-ul[PortfolioDotNet] {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-item[PortfolioDotNet] {
+    margin: 5px;
+    color: white;
+}
+
+.nav-socials[PortfolioDotNet] {
+    position: fixed;
+    bottom: 0;
+    margin-left: 39.615px;
+    margin-right: 39.615px;
+}
+
+.intro-text[PortfolioDotNet] {
+    margin-left: 200px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(16, 34, 70);
+}
+
+.experience-text[PortfolioDotNet], .projects-text[PortfolioDotNet], .education-text[PortfolioDotNet], .skills-text[PortfolioDotNet] {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    padding-left: 30px;
+}
+
+h1[PortfolioDotNet] {
+    display: inline;
+    font-size: 72px;
+}
+
+h2[PortfolioDotNet] {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: rgb(16, 34, 70);
+}
+
+h3[PortfolioDotNet] {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: rgb(16, 34, 70);
+}
+
+.lastName[PortfolioDotNet] {
+    color: #3b78bd;
+}
+
+.section-header[PortfolioDotNet] {
+    margin-bottom: 25px;
+}
+
+.companies[PortfolioDotNet], .school-name[PortfolioDotNet], .skill-names[PortfolioDotNet], .tech-used[PortfolioDotNet] {
+    color: gray;
+}
+
+.job-description[PortfolioDotNet], .project-description[PortfolioDotNet] {
+    color: gray;
+}
+
+.dates[PortfolioDotNet] {
+    color: #3b78bd;
+    white-space: nowrap;
+}
+
+.card[PortfolioDotNet] {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+/* _content/PortfolioDotNet/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-1uosorjier] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-1uosorjier] {
+  color: #0077cc;
+}
+
+.btn-primary[b-1uosorjier] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-1uosorjier], .nav-pills .show > .nav-link[b-1uosorjier] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-1uosorjier] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-1uosorjier] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-1uosorjier] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-1uosorjier] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-1uosorjier] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

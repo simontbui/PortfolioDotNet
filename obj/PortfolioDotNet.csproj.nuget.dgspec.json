@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simon\\source\\repos\\PortfolioDotNet\\PortfolioDotNet.csproj": {}
+    "C:\\Users\\Simon\\source\\repos\\portfolioDOTNET\\PortfolioDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simon\\source\\repos\\PortfolioDotNet\\PortfolioDotNet.csproj": {
+    "C:\\Users\\Simon\\source\\repos\\portfolioDOTNET\\PortfolioDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simon\\source\\repos\\PortfolioDotNet\\PortfolioDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Simon\\source\\repos\\portfolioDOTNET\\PortfolioDotNet.csproj",
         "projectName": "PortfolioDotNet",
-        "projectPath": "C:\\Users\\Simon\\source\\repos\\PortfolioDotNet\\PortfolioDotNet.csproj",
+        "projectPath": "C:\\Users\\Simon\\source\\repos\\portfolioDOTNET\\PortfolioDotNet.csproj",
         "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simon\\source\\repos\\PortfolioDotNet\\obj\\",
+        "outputPath": "C:\\Users\\Simon\\source\\repos\\portfolioDOTNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
