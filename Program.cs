@@ -1,3 +1,8 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using PortfolioDotNet.Data;
+using PortfolioDotNet.Models;
+
 namespace PortfolioDotNet
 {
     public class Program
@@ -5,11 +10,19 @@ namespace PortfolioDotNet
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<PortfolioDotNetContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("PortfolioDotNetContext") ?? throw new InvalidOperationException("Connection string 'PortfolioDotNetContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddRazorPages();
 
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                SeedData.Initialize(services);
+            }
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

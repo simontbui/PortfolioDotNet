@@ -8,13 +8,35 @@
     <a asp-page="/Index">Return to Portfolio</a>
 </header>
 
-<div class="chatter-div">
-    <div class="chatter-item">
-        item1
-    </div>
+@{
+    List<Dictionary<string, string>> dataStore = new List<Dictionary<string, string>>();
 
-    <div class="chatter-item">
-        item2
-    </div>
+    Dictionary<string, string> storeOne = new Dictionary<string, string>();
+    Dictionary<string, string> storeTwo = new Dictionary<string, string>();
+    Dictionary<string, string> storeThree = new Dictionary<string, string>();
+
+    storeOne["comment"] = "What's your favorite programming language?";
+    storeOne["date"] = "1/14/23";
+
+    storeTwo["comment"] = "What's your favorite animal?";
+    storeTwo["date"] = "1/14/23";
+
+    storeThree["comment"] = "What's your favorite color?";
+    storeThree["date"] = "1/14/23";
+
+    dataStore.Add(storeOne);
+    dataStore.Add(storeTwo);
+    dataStore.Add(storeThree);
+}
+
+<div class="chatter-div">
+    @foreach (var store in dataStore)
+    {
+        <div class="chatter-item">
+            <p>@store["comment"] - @store["date"]</p>
+            <p>Show replies</p>
+        </div>
+    }
 </div>
+
 
